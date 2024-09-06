@@ -82,6 +82,8 @@
     <Link>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <SubSystem>Console</SubSystem>
+      <NoEntryPoint>false</NoEntryPoint>
+      <Profile>false</Profile>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
@@ -92,6 +94,8 @@
     <Link>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <SubSystem>Console</SubSystem>
+      <NoEntryPoint>false</NoEntryPoint>
+      <Profile>false</Profile>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
@@ -124,6 +128,7 @@
     <ClCompile Include="tgaimage.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="geometry.h" />
     <ClInclude Include="line.h" />
     <ClInclude Include="tgaimage.h" />
   </ItemGroup>

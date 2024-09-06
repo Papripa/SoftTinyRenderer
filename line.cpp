@@ -3,45 +3,37 @@
 #include "tgaimage.h"
 //tga view : https://schmittl.github.io/tgajs/
 #define small 1e-5
-void line(int x0, int y0, int x1, int y1, TGAImage& image, TGAColor color)
-{
-	int dx = (x1 == x0) ? 0 : x1 - x0;
-	int dy = (y1 == y0) ? 0 : y1 - y0;
-	if (dx == 0)
-	{
-		for (float t = 1; t <= std::abs(dy); t += 1)
-		{
-			int y = y0 + std::abs(dy)/dy* t;
-			image.set(x0, y, color);
-		}
-	}
-	else if (dy == 0)
-	{
-		for (float t = 1; t <= std::abs(dx); t += 1)
-		{
-			int x = x0 + std::abs(dx) / dx * t;
-			image.set(x, y0, color);
-		}
-	}
-	else {
-		if (std::abs(dx) > std::abs(dy))
-		{
-			for (float t = 1; t <= std::abs(dx) + small; t += 1)
-			{
-				int x = x0 + std::abs(dx) / dx * t;
-				int y = y0 + dy / dx * t;
-				image.set(x, y, color);
-			}
-		}
-		else {
-			for (float t = 1; t <= std::abs(dy)+small; t += 1)
-			{
-
-				int x = x0 + dx / dy* t;
-				int y = y0 + std::abs(dy) / dy * t;
-				image.set(x, y, color);
-			}
-		}
-	}
-	
+void line(int x0, int y0, int x1, int y1, TGAImage& image, TGAColor color) {
+    
+    bool steep = false;
+    if (std::abs(x0 - x1) < std::abs(y0 - y1)) { // if the line is steep, we transpose the image 
+        std::swap(x0, y0);
+        std::swap(x1, y1);
+        //让大的为x
+        steep = true;
+    }
+    if (x0 > x1)
+    {
+        std::swap(x0, x1);
+        std::swap(y0, y1);
+    }
+    int dx = x1 - x0;
+    int dy = y1 - y0;
+    float derror = std::abs(dy / float(dx));//斜率 小于1的
+    float error = 0;
+    int y = y0;
+    for (int x = x0; x <= x1; x++) {
+        if (steep) {
+            image.set(y, x, color);
+        }
+        else {
+            image.set(x, y, color);
+        }
+        error += derror;//每次y增加多少斜率 而会四舍五入
+        if (error > .5) {
+            y += (y1 > y0 ? 1 : -1); //
+            error  -= 1.;
+            //不能直接为0 必须要减1 是根据变换的点去找像素 如果直接归零则类似于向上平移了0.5个格子
+        }
+    }
 }

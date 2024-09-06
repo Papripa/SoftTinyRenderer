@@ -11,16 +11,28 @@
       "RelativeMoniker": "D:0:0:{D3A730C4-BB5D-44D9-8283-F522471B4D5D}|STR.vcxproj|solutionrelative:main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D3A730C4-BB5D-44D9-8283-F522471B4D5D}|STR.vcxproj|P:\\Projects\\STR\\SoftTinyRenderer\\tgaimage.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{D3A730C4-BB5D-44D9-8283-F522471B4D5D}|STR.vcxproj|solutionrelative:tgaimage.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{D3A730C4-BB5D-44D9-8283-F522471B4D5D}|STR.vcxproj|P:\\Projects\\STR\\SoftTinyRenderer\\line.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{D3A730C4-BB5D-44D9-8283-F522471B4D5D}|STR.vcxproj|solutionrelative:line.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{D3A730C4-BB5D-44D9-8283-F522471B4D5D}|STR.vcxproj|P:\\Projects\\STR\\SoftTinyRenderer\\geometry.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{D3A730C4-BB5D-44D9-8283-F522471B4D5D}|STR.vcxproj|solutionrelative:geometry.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3A730C4-BB5D-44D9-8283-F522471B4D5D}|STR.vcxproj|P:\\Projects\\STR\\SoftTinyRenderer\\model.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{D3A730C4-BB5D-44D9-8283-F522471B4D5D}|STR.vcxproj|solutionrelative:model.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3A730C4-BB5D-44D9-8283-F522471B4D5D}|STR.vcxproj|P:\\Projects\\STR\\SoftTinyRenderer\\Model.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{D3A730C4-BB5D-44D9-8283-F522471B4D5D}|STR.vcxproj|solutionrelative:Model.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{D3A730C4-BB5D-44D9-8283-F522471B4D5D}|STR.vcxproj|P:\\Projects\\STR\\SoftTinyRenderer\\tgaimage.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{D3A730C4-BB5D-44D9-8283-F522471B4D5D}|STR.vcxproj|solutionrelative:tgaimage.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3A730C4-BB5D-44D9-8283-F522471B4D5D}|STR.vcxproj|P:\\Projects\\STR\\SoftTinyRenderer\\tgaimage.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{D3A730C4-BB5D-44D9-8283-F522471B4D5D}|STR.vcxproj|solutionrelative:tgaimage.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -29,12 +41,12 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 209,
-          "SelectedChildIndex": 3,
+          "DockedWidth": 198,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "line.h",
               "DocumentMoniker": "P:\\Projects\\STR\\SoftTinyRenderer\\line.h",
               "RelativeDocumentMoniker": "line.h",
@@ -43,11 +55,25 @@
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAACAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-09-05T14:51:01.782Z",
-              "IsPinned": true
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
+              "Title": "geometry.h",
+              "DocumentMoniker": "P:\\Projects\\STR\\SoftTinyRenderer\\geometry.h",
+              "RelativeDocumentMoniker": "geometry.h",
+              "ToolTip": "P:\\Projects\\STR\\SoftTinyRenderer\\geometry.h",
+              "RelativeToolTip": "geometry.h",
+              "ViewState": "AQIAACIAAAAAAAAAAAAAADUAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-09-06T03:38:38.187Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "tgaimage.cpp",
               "DocumentMoniker": "P:\\Projects\\STR\\SoftTinyRenderer\\tgaimage.cpp",
               "RelativeDocumentMoniker": "tgaimage.cpp",
@@ -55,11 +81,12 @@
               "RelativeToolTip": "tgaimage.cpp",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-09-05T14:51:28.925Z"
+              "WhenOpened": "2024-09-05T14:51:28.925Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "tgaimage.h",
               "DocumentMoniker": "P:\\Projects\\STR\\SoftTinyRenderer\\tgaimage.h",
               "RelativeDocumentMoniker": "tgaimage.h",
@@ -67,7 +94,8 @@
               "RelativeToolTip": "tgaimage.h",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-09-05T14:51:23.038Z"
+              "WhenOpened": "2024-09-05T14:51:23.038Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -77,7 +105,7 @@
               "RelativeDocumentMoniker": "line.cpp",
               "ToolTip": "P:\\Projects\\STR\\SoftTinyRenderer\\line.cpp",
               "RelativeToolTip": "line.cpp",
-              "ViewState": "AQIAACAAAAAAAAAAAAAkwC4AAAABAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-09-05T14:51:10.826Z",
               "EditorCaption": ""
@@ -85,9 +113,35 @@
           ]
         },
         {
-          "DockedWidth": 191,
-          "SelectedChildIndex": 0,
+          "DockedWidth": 202,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "model.cpp",
+              "DocumentMoniker": "P:\\Projects\\STR\\SoftTinyRenderer\\model.cpp",
+              "RelativeDocumentMoniker": "model.cpp",
+              "ToolTip": "P:\\Projects\\STR\\SoftTinyRenderer\\model.cpp",
+              "RelativeToolTip": "model.cpp",
+              "ViewState": "AQIAACIAAAAAAAAAAAAgwDEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-09-06T04:38:26.877Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Model.h",
+              "DocumentMoniker": "P:\\Projects\\STR\\SoftTinyRenderer\\Model.h",
+              "RelativeDocumentMoniker": "Model.h",
+              "ToolTip": "P:\\Projects\\STR\\SoftTinyRenderer\\Model.h",
+              "RelativeToolTip": "Model.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-09-06T04:38:00.773Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
@@ -96,7 +150,7 @@
               "RelativeDocumentMoniker": "main.cpp",
               "ToolTip": "P:\\Projects\\STR\\SoftTinyRenderer\\main.cpp",
               "RelativeToolTip": "main.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAMAAAA",
+              "ViewState": "AQIAACEAAAAAAAAAAAAAACsAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-09-05T14:46:08.996Z",
               "EditorCaption": ""

@@ -21,6 +21,7 @@ public:
 		inline Vec2<t> operator + (const Vec2<t>& temp)const { return Vec2<t>(u + temp.u, v + temp.v); };
 		inline Vec2<t> operator - (const Vec2<t>& temp)const { return Vec2<t>(u - temp.u, v - temp.v); };
 		inline Vec2<t> operator * (const float& m) const { return Vec2<t>(u * m, v * m); };
+		inline t operator * (const Vec2<t>& temp) const { return (x*temp.y-y*temp.x); };
 };
 
 template <class t> class Vec3
@@ -43,7 +44,7 @@ public://别忘了这里要public！！！
 	//叉积
 	inline Vec3<t> operator ^ (const Vec3<t>& temp)const { return Vec3<t>(y*temp.z-z*temp.y,z*temp.x-x*temp.z,x*temp.y-y*temp.x); };
 	//点积
-	inline t operator* (const Vec3<t>& temp) const { return x*temp.x+y*temp.y+temp.z; };
+	inline t operator* (const Vec3<t>& temp) const { return x*temp.x+y*temp.y+temp.z*z; };
 	//这里必须是float 如果是int那么膜长就没有意义
 	inline float len() const { return std::sqrt(x * x + y * y + z * z); };
 	inline Vec3<t> normalize() const{ float temp = this->len(); return Vec3<t>(x / temp,y / temp, z / temp); };//归一化

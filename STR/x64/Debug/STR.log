@@ -1,3 +1,11 @@
-﻿  line.cpp
-P:\Projects\STR\SoftTinyRenderer\line.cpp(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+﻿  main.cpp
+P:\Projects\STR\SoftTinyRenderer\main.cpp(83,10): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+P:\Projects\STR\SoftTinyRenderer\main.cpp(84,10): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+P:\Projects\STR\SoftTinyRenderer\main.cpp(85,10): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+P:\Projects\STR\SoftTinyRenderer\main.cpp(86,10): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+P:\Projects\STR\SoftTinyRenderer\main.cpp(87,10): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+P:\Projects\STR\SoftTinyRenderer\main.cpp(88,10): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+P:\Projects\STR\SoftTinyRenderer\main.cpp(97,116): warning C4244: “参数”: 从“float”转换到“unsigned char”，可能丢失数据
+P:\Projects\STR\SoftTinyRenderer\main.cpp(97,99): warning C4244: “参数”: 从“float”转换到“unsigned char”，可能丢失数据
+P:\Projects\STR\SoftTinyRenderer\main.cpp(97,82): warning C4244: “参数”: 从“float”转换到“unsigned char”，可能丢失数据
   STR.vcxproj -> P:\Projects\STR\SoftTinyRenderer\x64\Debug\STR.exe
